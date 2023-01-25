@@ -48,6 +48,7 @@
 		A05F1B93297F9FA500169210 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A05F1B92297F9FA500169210 /* FirebaseStorage */; };
 		A05F1B95297F9FA500169210 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A05F1B94297F9FA500169210 /* FirebaseStorageCombine-Community */; };
 		A05F1B97297FA06800169210 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A05F1B96297FA06700169210 /* GoogleService-Info.plist */; };
+		A0743AF529817058004DCB3E /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0743AF429817058004DCB3E /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		A033531B297D295A00100545 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A033531E297E938700100545 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A05F1B96297FA06700169210 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0743AF429817058004DCB3E /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 				A03352F7297D227900100545 /* AppDelegate.swift */,
 				A03352F9297D227900100545 /* SceneDelegate.swift */,
 				A033531E297E938700100545 /* Extensions.swift */,
+				A0743AF429817058004DCB3E /* DatabaseManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0335312297D291700100545 /* LoginViewController.swift in Sources */,
+				A0743AF529817058004DCB3E /* DatabaseManager.swift in Sources */,
 				A0335314297D292100100545 /* RegisterViewController.swift in Sources */,
 				A033531A297D294F00100545 /* NewConversationViewController.swift in Sources */,
 				A03352FC297D227900100545 /* ConversationsViewController.swift in Sources */,
